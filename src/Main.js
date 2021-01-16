@@ -65,7 +65,7 @@ class Main extends Component {
         const date = () => {
             if (this.state.date.d !== undefined) {
                 const { d, hour, minute, second } = this.state.date
-                return (<p>Juntitos ❤️: <span className="date-text">{d}</span> Días <span className="date-text">{hour}</span> Horas <span className="date-text">{minute}</span> Minutos <span className="date-text">{second}</span> Segundos </p>
+                return (<p>Juntitos ❤: <span className="date-text">{d}</span> Días <span className="date-text">{hour}</span> Horas <span className="date-text">{minute}</span> Minutos <span className="date-text">{second}</span> Segundos </p>
                 )
             }
         }
@@ -73,22 +73,22 @@ class Main extends Component {
             <div className="App animated bounceInLeft">
                 <div className="date">{date()}</div>
                 <div id="autotype">
-                    <h1 style={{ fontWeight: 900 }}>Hola princesita 🥰</h1>
+                    <h1 style={{ fontWeight: 900 }}>Hola princesita</h1>
                     <p >Antes de empezar a escribirte voy a poner un poco de Musica!</p>
-                    <p>Hoy estamos cumpliendo nuestro primer añito juntitos bby, un añito juntos mi amor 🥰🥰🥰!，
-                   hemos tenido risas, momentos felices al igual que momentos donde hemos peleado y distanciadonos, pero lo que me pone más feliz que al final del dia siempre podemos arreglar nuestros problemas 🥰. </p>
+                    <p>Hoy estamos cumpliendo nuestro primer añito juntitos bby, un añito juntos mi amor!，
+                   hemos tenido risas, momentos felices al igual que momentos donde hemos peleado y distanciadonos, pero lo que me pone más feliz que al final del dia siempre podemos arreglar nuestros problemas . </p>
                     <p> Me alegra tanto que el destino nos haya puesto juntos mí amor, y yo quiero continuar conociendote hoy y siempre, imaginarme un futuro contigo, son esas cosas que quiero que sucedan, y mí amor siempre voy a luchar por eso
                 </p>
                     <p>Todo lo que hemos compartido ha significado mucho para mi. Compartir los fines de semana con la persona que más amo es un regalo para mí, un regalo que me llena de felicidad, las palabras hermosas que me decís,
                         los abrazos tan bonitos que me das, las veces que me retas por algo, todo es perfecto cuando estoy contigo.
                 </p>
-                    <p>Te doy las gracias por un año de estar juntos y porque durante todo este tiempo me has hecho conocer la felicidad que solo vos me podes dar, por más añitos juntos mi amor 🥰🥰🥰 
+                    <p>Te doy las gracias por un año de estar juntos y porque durante todo este tiempo me has hecho conocer la felicidad que solo vos me podes dar, por más añitos juntos mi amor
                 </p>
-                    <p>Para serte sincero no soy nada bueno haciendo cartas, asi que mejor te diseño una pagina para decirte lo mucho que te amo 🥰🥰🥰
+                    <p>Para serte sincero no soy nada bueno haciendo cartas, asi que mejor te diseño una pagina para decirte lo mucho que te amo
                 </p>
-                    <p>Con todo mi ❤️, tu novio hermoso, o sea Jesús 🥰🥰🥰</p>
+                    <p>Con todo mi ❤, tu novio hermoso, o sea Jesús</p>
                     <div style={{ textAlign: 'right' }}>
-                        <p>Te amo siempre mi amor ❤️❤️❤️</p>
+                        <p>Te amo siempre mi amor ❤❤❤</p>
                         <p>14 de enero de 2021</p>
                     </div>
                 </div>
